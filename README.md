@@ -1,6 +1,6 @@
 # Assignment-2
 
-##Planning for drunks
+## Planning for drunks
 
 This assignment is going to build a model that shows where drunks walk in town when they're trying to get home.
 

@@ -100,7 +100,7 @@ for i in range (num_of_drunks):
             drunks[i].steps()
 
         
-# 3.1 Creating a list with the coordinates of every drunks (no.drunks, x, y)
+# 3.2 Creating a list with the coordinates of every drunks (no.drunks, x, y)
 drunks_location = []
 for p in range(num_of_drunks):
     no_drunks = [] 
@@ -109,7 +109,7 @@ for p in range(num_of_drunks):
     no_drunks.append(drunks[p].y)   
     drunks_location.append(no_drunks)             
             
-# 3.2 Creating a text file with the coordinates of every drunks
+# 3.3 Creating a text file with the coordinates of every drunks
 with open('planningfordrunk.txt', 'w', newline='') as f:
     csvwriter = csv.writer(f, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
     csvwriter.writerow(["drunks","x","y"])
@@ -117,7 +117,7 @@ with open('planningfordrunk.txt', 'w', newline='') as f:
         csvwriter.writerow(row)
               
 
-# 3.3 Plot to check if the model works
+# 3.4 Plot to check if the model works
 matplotlib.pyplot.xlim(0,300)
 matplotlib.pyplot.ylim(0,300)
 matplotlib.pyplot.imshow(environment)

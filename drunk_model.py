@@ -20,9 +20,10 @@
 #    2.4 Create and name drunks
 
 # 3. Move the drunks and draw the density
-#    3.1 Creating a list with the coordinates of every drunk (no. drunks, x, y)
-#    3.2 Creating a text file with the coordinates of every drunk
-#    3.3 Plot to check if the model works
+#    3.1 Moving the drunks
+#    3.2 Creating a list with the coordinates of every drunk (no. drunks, x, y)
+#    3.3 Creating a text file with the coordinates of every drunk
+#    3.4 Plot to check if the model works
 
 # 4. Save the density map to a file as text
 
@@ -90,6 +91,7 @@ for i in range(num_of_drunks):
     
     
 # 3. Move the drunks and draw the density.
+# 3.1 Moving the drunks
 for i in range (num_of_drunks):
     drunk = drunks[i]
     for j in range(num_of_iterations):

@@ -20,8 +20,8 @@
 #    2.4 Create and name drunks
 
 # 3. Move the drunks and draw the density
-#    3.1 Creating a list with the coordinates of every drunks (no. drunks, x, y)
-#    3.2 Creating a text file with the coordinates of evety drunks
+#    3.1 Creating a list with the coordinates of every drunk (no. drunks, x, y)
+#    3.2 Creating a text file with the coordinates of every drunk
 #    3.3 Plot to check if the model works
 
 # 4. Save the density map to a file as text
